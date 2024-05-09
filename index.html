@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body style=" justify-content: center;">
+   <div class="quiz-container">
+        <h1></h1>
+        <p id="question1">ข้อที่ 1. PIM ย่อมาจากอะไร ?</p>
+        <button class="button" onclick="checkAnswer('a')">A) พีไอเอ็ม</button>
+        <button class="button" onclick="checkAnswer('b')">B) ปิ๋ม</button>
+        <button class="button" onclick="checkAnswer('c')">C) พิม</button>
+        <button class="button" onclick="checkAnswer('d')">D) ภีม</button>
+        <p id="result"></p>
+        <h1></h1>
+        <hr>
+        <h1></h1>
+        <p>ข้อที่ 2. RPA ย่อมาจากอะไร ?</p>
+        <button class="button" onclick="checkAnswer2('a')">A) Run Process Automation</button>
+        <button class="button" onclick="checkAnswer2('b')">B) Robotic Product Automation</button>
+        <button class="button" onclick="checkAnswer2('c')">C) Robotic Process Automation</button>
+        <button class="button" onclick="checkAnswer2('d')">D) Routine Preview Application</button>
+        <p id="result2"></p>
+        <div class="sum"> 
+            <h3>⭐️ ผลลัพธ์จำนวนข้อที่ตอบถูก ⭐️</h3>
+            <p id="sumTotal">(กรุณาเลือกคำตอบ)</p>
+        </div>
+
+   </div>
+
+   <script src="index.js"></script>
+</body>
+</html>
